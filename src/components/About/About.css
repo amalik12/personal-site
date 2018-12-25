@@ -1,0 +1,9 @@
+.About  {
+    color: #afafaf;
+    flex-grow: 1;
+    margin-top: 50px;
+}
+
+.highlight {
+    color: #27ae60;
+}

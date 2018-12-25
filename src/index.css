@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 30px 30px;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -11,4 +11,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 54px;
+}
+
+a {
+  text-decoration: none;
+  transition: filter 0.4s;
+}
+
+a:hover {
+  filter: brightness(130%);
 }
