@@ -1,0 +1,12 @@
+.Tag {
+    display: inline-block;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    border-radius: 4px;
+    background: #e5f2ff;
+    color: #3276a4;
+    padding: 6px 12px;
+    margin-right: 15px;
+}

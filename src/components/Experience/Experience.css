@@ -1,0 +1,47 @@
+.Experience {
+    margin-bottom: 70px;
+}
+
+.experience-header {
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+
+.experience-header-icon {
+    border-radius: 50%;
+    width: 65px;
+    margin-left: -95px;
+    float: left;
+}
+
+.experience-header-info {
+    display: inline-block;
+}
+
+.experience-header-org {
+    color: #3498db;
+    font-size: 20px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.experience-header-details {
+    float: right;
+}
+
+.experience-header-details-text {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #afafaf;
+    font-size: 21px;
+}
+
+.experience-description {
+    font-size: 20px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 20px;
+}

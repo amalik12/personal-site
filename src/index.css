@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #363636;
 }
 
 code {
@@ -18,6 +19,21 @@ h1 {
   font-weight: 600;
   font-style: normal;
   font-size: 54px;
+}
+
+h2 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  margin: 0;
 }
 
 a {

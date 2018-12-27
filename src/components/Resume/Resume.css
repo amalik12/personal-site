@@ -1,0 +1,43 @@
+.Resume {
+    flex-grow: 1;
+    margin-left: 300px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.divider {
+    border-bottom: 1px solid #bebebe;
+    flex-grow: 1;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+.resume-download {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: #3498db;
+    text-align: center;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    width: 300px;
+    padding: 10px;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.resume-download i {
+    margin-right: 10px;
+}
+
+.resume-download:hover {
+    color: white;
+    background: #3498db;
+}

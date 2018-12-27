@@ -1,7 +1,8 @@
 .Sidebar {
-    width: 200px;
+    width: 125px;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 600;
     font-style: normal;
     margin-right: 100px;
+    position: fixed;
 }
