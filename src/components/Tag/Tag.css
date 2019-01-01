@@ -10,3 +10,8 @@
     padding: 6px 12px;
     margin-right: 15px;
 }
+
+.Tag.purple {
+	background: #f6efff;
+	color: #7d57c2;
+}

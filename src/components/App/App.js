@@ -4,6 +4,7 @@ import './App.css';
 import Sidebar from '../Sidebar';
 import About from '../About';
 import Resume from '../Resume';
+import Projects from '../Projects';
 
 let App = () => {
     return (
@@ -11,8 +12,11 @@ let App = () => {
         <Router>
             <div className="container">
               <Sidebar/>
-              <Route exact path="/" component={About} />
-              <Route exact path="/resume" component={Resume} />
+              <div className="content">
+                <Route exact path="/" component={About} />
+                <Route path="/resume" component={Resume} />
+                <Route path="/projects" component={Projects} />
+              </div>
             </div>
         </Router>
       </div>

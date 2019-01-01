@@ -17,7 +17,7 @@ let Resume = () => {
         <Experience image="bi.png" title="Front End Engineering Intern"
         org={['Business Insider', 'http://businessinsider.com']} dates="June 2017 - Aug 2017"
         location="New York, NY" tags={['javascript', 'php', 'angularjs']} description=''/>
-        <Experience image="yale.png" title="Undergraduate Learning Assistant, Data Structures and Programming Techniques"
+        <Experience image="yale.png" title="Undergraduate Learning Assistant"
         org={['Yale University', 'http://yale.edu']} dates="Sept 2016 - Dec 2016"
         location="New Haven, CT" tags={['c']} description=''/>
         <Experience image="socrob.png" title="Research Intern"
