@@ -19,7 +19,7 @@ let ProjectItem = (props) => {
                 {props.tags.map(item => <Tag>{item}</Tag>)}
                 <p className="project-description">{props.description}</p>
                 <a href={props.github} className="project-link" style={{color: props.color}}>
-                    <i class="fab fa-github"></i> {props.github}
+                    <i class="fab fa-github"></i> {props.github.split('https://')[1]}
                 </a>
             </div>
         </div>

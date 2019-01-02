@@ -1,0 +1,21 @@
+.contact-header {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact-link i {
+    font-size: 30px;
+    margin-right: 8px;
+}

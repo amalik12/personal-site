@@ -4,4 +4,29 @@
 
 .content {
   margin-left: 200px;
+  flex-grow: 1;
+}
+
+.fade-appear {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 0.5s;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: 0.3s;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: 0.3s;
 }

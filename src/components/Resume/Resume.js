@@ -29,7 +29,7 @@ let Resume = () => {
         <Experience image="yale.png" title="Bachelor of Science (B.S.), Computer Science"
         org={['Yale University', 'http://yale.edu']} dates="Aug 2013 - May 2017"
         location="New Haven, CT" tags={['c', 'java', 'javascript']} description=''/>
-        <div className="resume-download"><i class="fas fa-file-download"></i> Download Resume</div>
+        <div className="resume-download"><i className="fas fa-file-pdf"></i> Download Resume</div>
       </div>
     );
 }
