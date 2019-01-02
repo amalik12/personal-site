@@ -3,21 +3,35 @@ import { withRouter, Link } from "react-router-dom";
 import { connect } from 'react-redux';
 import { setColor } from '../../actions';
 import './NavLink.css';
+import PageLink from '../PageLink';
 
 class NavLink extends Component {
+  constructor(props) {
+    super(props);
+    this.updateColor.bind(this);
+  }
+
   componentDidMount() {
-    if (this.props.location.pathname === this.props.link)
+    this.updateColor();
+    this.props.history.listen((location, action) => {
+      this.updateColor(location.pathname);
+    });
+  }
+
+  updateColor(pathname) {
+    if (pathname === this.props.link) {
       this.props.setColor(this.props.color);
+    }
   }
 
   render() {
     let style = this.props.location.pathname === this.props.link ? {color: this.props.color} : {};
     return (
-      <Link to={this.props.link} onClick={() => this.props.setColor(this.props.color)}>
+      <PageLink link={this.props.link} color={this.props.color}>
         <div className="NavLink" style={style}>{this.props.children}</div>
-      </Link>
+      </PageLink>
     );
   }
 }
 
-export default connect(null, { setColor })(withRouter(props => <NavLink {...props}/>));
+export default withRouter(connect(null, { setColor })(NavLink));
