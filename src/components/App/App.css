@@ -16,17 +16,17 @@
 .fade-appear.fade-appear-active {
   opacity: 1;
   transform: translateY(0px);
-  transition: 0.5s;
+  transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .fade-exit {
   opacity: 1;
   transform: translateY(0px);
-  transition: 0.3s;
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .fade-exit-active {
   opacity: 0;
   transform: translateY(-20px);
-  transition: 0.3s;
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
