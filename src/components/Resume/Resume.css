@@ -19,13 +19,15 @@
 }
 
 .resume-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 20px;
     color: white;
     background: #3498db;
-    text-align: center;
     border-radius: 4px;
     width: 250px;
     padding: 15px 10px;

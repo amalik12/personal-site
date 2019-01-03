@@ -1,31 +1,37 @@
 import React from 'react';
 import './Contact.css';
-import { connect } from 'react-redux';
+import ScrollReveal from 'scrollreveal';
+import { revealOptions } from '../../util';
 
-const mapStateToProps = (state) => {
-    return {
-        color: state.color
+class Contact extends React.Component {
+    constructor(props) {
+        super(props);
+        this.nodes = [];
+    }
+
+    componentDidMount() {
+        ScrollReveal().reveal(this.nodes, revealOptions);
+    }
+
+    render() {
+        return (
+            <div className="Contact">
+                <h1 ref={node => this.nodes.push(node)} className="contact-header">Get In Touch.</h1>
+                <a ref={node => this.nodes.push(node)} href="mailto:adisamalik@gmail.com" className="contact-link">
+                    <i className="far fa-envelope"></i> adisamalik@gmail.com
+                </a>
+                <a ref={node => this.nodes.push(node)} href="http://linkedin.com/in/adisamalik" className="contact-link">
+                    <i className="fab fa-linkedin-in"></i> linkedin.com/in/adisamalik
+                </a>
+                <a ref={node => this.nodes.push(node)} href="http://github.com/amalik12" className="contact-link">
+                    <i className="fab fa-github"></i> github.com/amalik12
+                </a>
+                <a ref={node => this.nodes.push(node)} href="#" className="contact-link">
+                    <i className="fas fa-file-pdf"></i> Download Resume
+                </a>
+            </div>
+        );
     }
 }
 
-let Contact = (props) => {
-    return (
-        <div className="Contact">
-            <h1 className="contact-header" style={{color: props.color}}>Get In Touch.</h1>
-            <a href="mailto:adisamalik@gmail.com" className="contact-link" style={{color: props.color}}>
-                <i className="far fa-envelope"></i> adisamalik@gmail.com
-            </a>
-            <a href="http://linkedin.com/in/adisamalik" className="contact-link" style={{color: props.color}}>
-                <i className="fab fa-linkedin-in"></i> linkedin.com/in/adisamalik
-            </a>
-            <a href="http://github.com/amalik12" className="contact-link" style={{color: props.color}}>
-                <i className="fab fa-github"></i> github.com/amalik12
-            </a>
-            <a href="#" className="contact-link" style={{color: props.color}}>
-                <i className="fas fa-file-pdf"></i> Download Resume
-            </a>
-        </div>
-    );
-}
-
-export default connect(mapStateToProps)(Contact);
+export default Contact;

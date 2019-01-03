@@ -42,7 +42,7 @@ class Resume extends Component {
             <Experience ref={node => this.nodes.push(node)} image="yale.png" title="Bachelor of Science (B.S.), Computer Science"
             org={['Yale University', 'http://yale.edu']} dates="Aug 2013 - May 2017"
             location="New Haven, CT" tags={['c', 'java', 'javascript']} description=''/>
-            <div ref={node => this.nodes.push(node)} className="resume-download"><i className="fas fa-file-pdf"></i> Download Resume</div>
+            <div ref={node => this.nodes.push(node)} className="resume-download"><i className="fas fa-file-pdf"></i> <span className="resume-download-text">Download Resume</span></div>
           </div>
         );
     }

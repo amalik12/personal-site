@@ -12,7 +12,7 @@ class NavLink extends Component {
   }
 
   componentDidMount() {
-    this.updateColor();
+    this.updateColor(this.props.location.pathname);
     this.props.history.listen((location, action) => {
       this.updateColor(location.pathname);
     });
