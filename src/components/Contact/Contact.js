@@ -13,6 +13,10 @@ class Contact extends React.Component {
         ScrollReveal().reveal(this.nodes, revealOptions);
     }
 
+    componentWillUnmount() {
+        ScrollReveal().clean(this.nodes);
+    }
+    
     render() {
         return (
             <div className="Contact">

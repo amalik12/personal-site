@@ -14,6 +14,10 @@ class Projects extends Component {
         ScrollReveal().reveal(this.nodes, revealOptions)
     }
 
+    componentWillUnmount() {
+        ScrollReveal().clean(this.nodes);
+    }
+    
     render() {
         return (
             <div className="Projects">

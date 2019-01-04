@@ -9,12 +9,15 @@
 }
 
 .project-image {
-    flex-grow: 1;
+    width: 100%;
+}
+
+.project-image-container {
     max-width: 700px;
 }
 
 .project-info {
-    width: 350px;
+    flex-basis: 350px;
     margin-left: 20px;
 }
 

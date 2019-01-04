@@ -3,19 +3,19 @@
 }
 
 .experience-header {
-    margin-bottom: 20px;
-    line-height: 2em;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
 }
 
 .experience-header-icon {
     border-radius: 50%;
     width: 65px;
     margin-left: -95px;
-    float: left;
 }
 
 .experience-header-info {
-    display: inline-block;
+    margin-left: 30px;
 }
 
 .experience-header-org {
@@ -27,7 +27,7 @@
 }
 
 .experience-header-details {
-    float: right;
+    margin-left: auto;
 }
 
 .experience-header-details-text {
