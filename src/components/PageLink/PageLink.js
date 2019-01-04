@@ -5,7 +5,7 @@ import { setColor } from '../../actions';
 
 let PageLink = props => {
     return (
-        <Link className={props.className} to={props.link} onClick={() => props.setColor(props.color)}>
+        <Link className={props.className} to={props.link} onClick={() => { window.scrollTo(0,0); props.setColor(props.color); }}>
             {props.children}
         </Link>
     );

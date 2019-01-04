@@ -1,4 +1,4 @@
-.container {
+.main-container {
   display: flex;
 }
 
@@ -29,4 +29,14 @@
   opacity: 0;
   transform: translateY(-20px);
   transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .content {
+    margin-left: 0px;
+  }
 }

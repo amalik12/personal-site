@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter, Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import { connect } from 'react-redux';
 import { setColor } from '../../actions';
 import './NavLink.css';
@@ -27,7 +27,7 @@ class NavLink extends Component {
   render() {
     let style = this.props.location.pathname === this.props.link ? {color: this.props.color} : {};
     return (
-      <PageLink link={this.props.link} color={this.props.color}>
+      <PageLink className={this.props.className} link={this.props.link} color={this.props.color}>
         <div className="NavLink" style={style}>{this.props.children}</div>
       </PageLink>
     );

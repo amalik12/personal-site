@@ -11,7 +11,7 @@ let App = () => {
     return (
       <div className="App">
         <Router>
-          <div className="container">
+          <div className="main-container">
             <Sidebar/>
             <div className="content">
               <Switch>
