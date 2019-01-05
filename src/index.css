@@ -21,6 +21,12 @@ h1 {
   font-size: 54px;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
 h2 {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
@@ -36,12 +42,24 @@ h3 {
   margin: 0;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 a {
   text-decoration: none;
-  transition: filter 0.4s;
+  transition: filter 0.4s, color 0.75s;
 }
 
 a:hover {
   text-decoration: none;
   filter: brightness(130%);
+}
+
+@media (max-width: 576px) {
+  body {
+    margin-top: 40px;
+  }
 }

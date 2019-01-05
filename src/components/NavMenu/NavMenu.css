@@ -1,0 +1,17 @@
+.NavMenu {
+    float: right;
+}
+
+.hamburger {
+    padding: 0;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after, .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+    background-color: white;
+}
+
+@media (min-width: 577px) {
+    .NavMenu {
+        display: none;
+    }
+}

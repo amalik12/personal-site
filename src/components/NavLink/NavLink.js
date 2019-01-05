@@ -25,11 +25,16 @@ class NavLink extends Component {
   }
 
   render() {
-    let style = this.props.location.pathname === this.props.link ? {color: this.props.color} : {};
+    let isActive = this.props.location.pathname === this.props.link;
+    let expanded = this.props.mobile && this.props.expanded;
     return (
-      <PageLink className={this.props.className} link={this.props.link} color={this.props.color}>
-        <div className="NavLink" style={style}>{this.props.children}</div>
-      </PageLink>
+      <li className={"NavLink " + (this.props.mobile ? 'mobile ' : 'desktop ')
+      + (expanded && 'expanded ')}
+      >
+        <PageLink className={this.props.className + ' ' + (isActive && 'active')} onClick={this.props.onClick} link={this.props.link} color={this.props.color} style={isActive ? {...this.props.style, color: this.props.color} : this.props.style}>
+          {this.props.children}
+        </PageLink>
+      </li>
     );
   }
 }

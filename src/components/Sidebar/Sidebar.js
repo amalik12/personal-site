@@ -8,10 +8,12 @@ class Sidebar extends Component {
     return (
       <div className="Sidebar">
         <Logo/>
-        <NavLink link="/" color="#27ae60" className="sidebar-link">About.</NavLink>
-        <NavLink link="/resume" color="#3498db" className="sidebar-link">Resume.</NavLink>
-        <NavLink link="/projects" color="#6c5ce8" className="sidebar-link">Projects.</NavLink>
-        <NavLink link="/contact" color="#e74c3c" className="sidebar-link">Contact.</NavLink>
+        <ul className="sidebar-list">
+          <NavLink link="/" color="#27ae60" className="sidebar-link">About.</NavLink>
+          <NavLink link="/resume" color="#3498db" className="sidebar-link">Resume.</NavLink>
+          <NavLink link="/projects" color="#6c5ce8" className="sidebar-link">Projects.</NavLink>
+          <NavLink link="/contact" color="#e74c3c" className="sidebar-link">Contact.</NavLink>
+        </ul>
       </div>
     );
   }
