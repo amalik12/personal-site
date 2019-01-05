@@ -10,11 +10,15 @@ let Experience = React.forwardRef((props, ref) => (
                 <h3>{props.title}</h3>
                 <a className="experience-header-org" href={props.org[1]}>{props.org[0]}</a>
             </div>
-            <div className="experience-header-details">
+            <div className="experience-header-details desktop">
                 <div className="experience-header-details-text">{props.dates}</div>
                 <div className="experience-header-details-text">{props.location}</div>
             </div>
         </div>
+        <div className="experience-header-details mobile">
+                <div className="experience-header-details-text">{props.dates}</div>
+                <div className="experience-header-details-text">{props.location}</div>
+            </div>
         <div className="experience-description">
             {props.description}
         </div>

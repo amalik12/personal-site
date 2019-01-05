@@ -21,12 +21,6 @@ h1 {
   font-size: 54px;
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 40px;
-  }
-}
-
 h2 {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 600;
@@ -61,5 +55,13 @@ a:hover {
 @media (max-width: 576px) {
   body {
     margin-top: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 }
