@@ -11,7 +11,8 @@ class Projects extends Component {
     }
 
     componentDidMount() {
-        ScrollReveal().reveal(this.nodes, revealOptions)
+        ScrollReveal().reveal(this.nodes, revealOptions);
+        document.title = "Adisa Malik - Projects";
     }
 
     componentWillUnmount() {

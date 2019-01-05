@@ -11,6 +11,7 @@ class Contact extends React.Component {
 
     componentDidMount() {
         ScrollReveal().reveal(this.nodes, revealOptions);
+        document.title = "Adisa Malik - Contact";
     }
 
     componentWillUnmount() {

@@ -13,6 +13,7 @@ class Resume extends Component {
 
     componentDidMount() {
         ScrollReveal().reveal(this.nodes, revealOptions);
+        document.title = "Adisa Malik - Resume";
     }
 
     componentWillUnmount() {
