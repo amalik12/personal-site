@@ -15,3 +15,10 @@
 	background: #f6efff;
 	color: #7d57c2;
 }
+
+@media (max-width: 576px) {
+    .Tag {
+        font-size: 14px;
+        margin-right: 10px;
+    }    
+}
