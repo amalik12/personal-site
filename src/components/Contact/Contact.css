@@ -6,14 +6,19 @@
     color: #e74c3c;
 }
 
+.contact-item {
+    text-align: center;
+}
+
 .contact-link {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 400;
     margin-bottom: 20px;
+    letter-spacing: .05em;
     color: #e74c3c;
 }
 

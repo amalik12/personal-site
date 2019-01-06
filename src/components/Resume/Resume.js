@@ -24,6 +24,12 @@ class Resume extends Component {
         return (
           <div className="Resume">
             <div className="header" ref={node => this.nodes.push(node)}>
+                <h2>Education.</h2><span className="divider"></span>
+            </div>
+            <Experience ref={node => this.nodes.push(node)} image="yale.png" title="Bachelor of Science (B.S.), Computer Science"
+            org={['Yale University', 'http://yale.edu']} dates="Aug 2013 - May 2017"
+            location="New Haven, CT" tags={['c', 'java', 'javascript']} description=''/>
+            <div className="header" ref={node => this.nodes.push(node)}>
                 <h2 className="header-text">Experience.</h2><span className="divider"></span>
             </div>
             <Experience ref={node => this.nodes.push(node)} image="bloomberg.png" title="Software Engineer"
@@ -41,12 +47,6 @@ class Resume extends Component {
             <Experience ref={node => this.nodes.push(node)} image="socrob.png" title="Research Intern"
             org={['Yale Social Robotics Lab', 'http://scazlab.yale.edu']} dates="June 2016 - Aug 2017"
             location="New Haven, CT" tags={['python', 'opencv']} description=''/>
-            <div className="header" ref={node => this.nodes.push(node)}>
-                <h2>Education.</h2><span className="divider"></span>
-            </div>
-            <Experience ref={node => this.nodes.push(node)} image="yale.png" title="Bachelor of Science (B.S.), Computer Science"
-            org={['Yale University', 'http://yale.edu']} dates="Aug 2013 - May 2017"
-            location="New Haven, CT" tags={['c', 'java', 'javascript']} description=''/>
             <div ref={node => this.nodes.push(node)} className="resume-download"><i className="fas fa-file-pdf"></i> <span className="resume-download-text">Download Resume</span></div>
           </div>
         );

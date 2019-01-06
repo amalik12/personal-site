@@ -1,13 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './About.css';
 import PageLink from '../PageLink';
 
-class About extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
+class About extends Component {
   componentDidMount() {
     document.title = "Adisa Malik - About";
   }

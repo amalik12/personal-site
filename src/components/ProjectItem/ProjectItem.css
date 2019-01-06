@@ -47,9 +47,7 @@
 }
 
 .project-description {
-    font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 400;
-    font-size: 18px;
 }
 
 @media (max-width: 576px) {

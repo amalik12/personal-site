@@ -19,9 +19,9 @@ let Experience = React.forwardRef((props, ref) => (
                 <div className="experience-header-details-text">{props.dates}</div>
                 <div className="experience-header-details-text">{props.location}</div>
             </div>
-        <div className="experience-description">
+        <p className="experience-description">
             {props.description}
-        </div>
+        </p>
         {props.tags.map((item) => <Tag>{item}</Tag>)}
     </div>
 ));
