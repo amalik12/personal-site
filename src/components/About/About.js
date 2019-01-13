@@ -6,6 +6,7 @@ import PageLink from '../PageLink';
 class About extends Component {
   componentDidMount() {
     document.title = "Adisa Malik - About";
+    document.getElementById('favicon').href = 'favicon1.png';
   }
   
   render() {

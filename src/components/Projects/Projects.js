@@ -13,6 +13,7 @@ class Projects extends Component {
     componentDidMount() {
         ScrollReveal().reveal(this.nodes, revealOptions);
         document.title = "Adisa Malik - Projects";
+        document.getElementById('favicon').href = 'favicon3.png';
     }
 
     componentWillUnmount() {

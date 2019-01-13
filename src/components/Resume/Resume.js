@@ -14,6 +14,7 @@ class Resume extends Component {
     componentDidMount() {
         ScrollReveal().reveal(this.nodes, revealOptions);
         document.title = "Adisa Malik - Resume";
+        document.getElementById('favicon').href = 'favicon2.png';
     }
 
     componentWillUnmount() {
