@@ -15,6 +15,7 @@ class Resume extends Component {
         ScrollReveal().reveal(this.nodes, revealOptions);
         document.title = "Adisa Malik - Resume";
         document.getElementById('favicon').href = 'favicon2.png';
+        document.getElementById('theme').content = '#3498db';
     }
 
     componentWillUnmount() {

@@ -13,6 +13,7 @@ class Contact extends React.Component {
         ScrollReveal().reveal(this.nodes, revealOptions);
         document.title = "Adisa Malik - Contact";
         document.getElementById('favicon').href = 'favicon4.png';
+        document.getElementById('theme').content = '#e74c3c';
     }
 
     componentWillUnmount() {
@@ -40,7 +41,7 @@ class Contact extends React.Component {
                         </a>
                     </li>
                     <li className="contact-item" ref={node => this.nodes.push(node)}>
-                        <a href="#" className="contact-link">
+                        <a href="/" className="contact-link">
                             <i className="fas fa-file-pdf"></i> Download Resume
                         </a>
                     </li>

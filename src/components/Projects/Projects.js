@@ -14,6 +14,7 @@ class Projects extends Component {
         ScrollReveal().reveal(this.nodes, revealOptions);
         document.title = "Adisa Malik - Projects";
         document.getElementById('favicon').href = 'favicon3.png';
+        document.getElementById('theme').content = '#6c5ce8';
     }
 
     componentWillUnmount() {
