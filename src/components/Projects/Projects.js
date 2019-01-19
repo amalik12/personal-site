@@ -28,7 +28,7 @@ class Projects extends Component {
                 tags={['react', 'mongodb', 'nodejs', 'redis']}
                 github="https://github.com/amalik12/groop" image="groop.gif"/>
                 <ProjectItem ref={node => this.nodes.push(node)} right={true} large={true} title="Draftnet" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
-                tags={['django', 'tensorflow', 'angularjs']}
+                tags={['django', 'tensorflow', 'angular']}
                 github="https://github.com/viking-sudo-rm/draftnet/" image="draftnet.png"/>
                 <ProjectItem ref={node => this.nodes.push(node)} large={true} title="Dining Plus" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
                 tags={['android', 'java', 'sqlite']}

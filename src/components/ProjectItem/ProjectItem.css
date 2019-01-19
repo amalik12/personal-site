@@ -12,11 +12,8 @@
     width: 100%;
 }
 
-.project-image-container {
-}
-
 .project-info {
-    flex-basis: 350px;
+    flex-basis: 450px;
     margin-left: 20px;
 }
 
