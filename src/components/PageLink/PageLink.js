@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import { connect } from 'react-redux';
-import { setColor } from '../../actions';
 
 let PageLink = props => {
     return (
@@ -17,4 +15,4 @@ let PageLink = props => {
     );
 }
 
-export default connect(null, { setColor })(PageLink);
+export default PageLink;

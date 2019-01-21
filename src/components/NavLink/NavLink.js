@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { withRouter } from "react-router-dom";
-import { connect } from 'react-redux';
-import { setColor } from '../../actions';
 import './NavLink.css';
 import PageLink from '../PageLink';
 
@@ -31,7 +29,7 @@ class NavLink extends Component {
       <li className={"NavLink " + (this.props.mobile ? 'mobile ' : 'desktop ')
       + (expanded && 'expanded ')}
       >
-        <PageLink className={this.props.className + ' ' + (isActive && 'active')} onClick={this.props.onClick} link={this.props.link} color={this.props.color} style={isActive ? {...this.props.style, color: this.props.color} : this.props.style}>
+        <PageLink className={this.props.className + ' ' + (isActive && 'active')} onClick={this.props.onClick} link={this.props.link} setColor={this.props.setColor} color={this.props.color} style={isActive ? {...this.props.style, color: this.props.color} : this.props.style}>
           {this.props.children}
         </PageLink>
       </li>
@@ -39,4 +37,4 @@ class NavLink extends Component {
   }
 }
 
-export default withRouter(connect(null, { setColor })(NavLink));
+export default withRouter(NavLink);

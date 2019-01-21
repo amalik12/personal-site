@@ -1,14 +1,7 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import './Logo.css';
 import NavMenu from '../NavMenu';
 import NavLink from '../NavLink';
-
-const mapStateToProps = (state) => {
-  return {
-    color: state.color
-  }
-}
 
 class Logo extends React.Component {
   constructor(props) {
@@ -41,14 +34,14 @@ class Logo extends React.Component {
         Adisa Malik.
         <NavMenu active={this.state.menu} onClick={this.toggleMenu}/>
         <ul className="logo-mobile-menu">
-          <NavLink onClick={this.toggleMenu} mobile={true} expanded={this.state.menu} link="/" color="#27ae60" style={{opacity: this.state.opacity}} className="mobile-nav-link">About.</NavLink>
-          <NavLink onClick={this.toggleMenu} mobile={true} expanded={this.state.menu} link="/resume" color="#3498db" style={{opacity: this.state.opacity}} className="mobile-nav-link">Resume.</NavLink>
-          <NavLink onClick={this.toggleMenu} mobile={true} expanded={this.state.menu} link="/projects" color="#6c5ce8" style={{opacity: this.state.opacity}} className="mobile-nav-link">Projects.</NavLink>
-          <NavLink onClick={this.toggleMenu} mobile={true} expanded={this.state.menu} link="/contact" color="#e74c3c" style={{opacity: this.state.opacity}} className="mobile-nav-link">Contact.</NavLink>
+          <NavLink onClick={this.toggleMenu} setColor={this.props.setColor} mobile={true} expanded={this.state.menu} link="/" color="#27ae60" style={{opacity: this.state.opacity}} className="mobile-nav-link">About.</NavLink>
+          <NavLink onClick={this.toggleMenu} setColor={this.props.setColor} mobile={true} expanded={this.state.menu} link="/resume" color="#3498db" style={{opacity: this.state.opacity}} className="mobile-nav-link">Resume.</NavLink>
+          <NavLink onClick={this.toggleMenu} setColor={this.props.setColor} mobile={true} expanded={this.state.menu} link="/projects" color="#6c5ce8" style={{opacity: this.state.opacity}} className="mobile-nav-link">Projects.</NavLink>
+          <NavLink onClick={this.toggleMenu} setColor={this.props.setColor} mobile={true} expanded={this.state.menu} link="/contact" color="#e74c3c" style={{opacity: this.state.opacity}} className="mobile-nav-link">Contact.</NavLink>
         </ul>
       </div>
     );
   }
 }
 
-export default connect(mapStateToProps)(Logo);
+export default Logo;
