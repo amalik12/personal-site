@@ -30,7 +30,7 @@ export const resume = [
         dates: 'Sept 2018 - Present',
         location: "New York, NY",
         tags: ['c++', 'python'],
-        description: "Worked on various improvements to backend services for the MARS function in the Bloomberg Terminal. Built a new feature for the MARS function's deal upload process."
+        description: "Developed several improvements to the backend services for the MARS function in the Bloomberg Terminal. Built a new feature for the MARS function's deal upload process."
     },
     {
         title: "Solutions Engineer",
@@ -39,7 +39,7 @@ export const resume = [
         dates: 'Jan 2018 - June 2018',
         location: "New York, NY",
         tags: ['python', 'javascript'],
-        description: "Reproduced and debugged several issues with the product's dashboard and monitoring systems affecting a large number of users. Resolved issues for customers using the product through collaboration with engineering subteams and sales representatives. Created a search bar in JavaScript for one of the documentation pages, enabling users to filter through the 200+ items on the page as they typed."
+        description: "Reproduced and debugged several issues with the product's dashboard and monitoring systems affecting a large number of users. Resolved issues for customers using the product through collaboration with engineering subteams and sales representatives."
     },
     {
         title: "Front End Engineering Intern",
@@ -48,7 +48,7 @@ export const resume = [
         dates: 'June 2017 - Aug 2017',
         location: "New York, NY",
         tags: ['javascript', 'php', 'angularjs'],
-        description: "Developed new features in the publication's content management system using AngularJS to support a new interview post type. Created a template using PHP for the website to display the new post type. Designed and implemented an audio player for article pages using JQuery."
+        description: "Developed new features in the publication's content management system to support a new interview post type. Created a template for the website to display the new post type. Designed and implemented an audio player for article pages."
     },
     {
         title: "Undergraduate Learning Assistant",
