@@ -11,9 +11,18 @@
     margin-right: 15px;
 }
 
+.Tag::selection {
+    color: white;
+    background: #3498db;
+}
 .Tag.purple {
 	background: #f6efff;
 	color: #7d57c2;
+}
+
+.Tag.purple::selection {
+    color: white;
+    background: #6c5ce8;
 }
 
 @media (max-width: 576px) {

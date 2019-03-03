@@ -3,6 +3,16 @@
     flex-grow: 1;
 }
 
+.About h1::selection {
+    color: white;
+    background-color: #27ae60;
+}
+
+.highlight::selection {
+    color: white;
+    background-color: #27ae60;
+}
+
 .highlight {
     color: #27ae60;
 }

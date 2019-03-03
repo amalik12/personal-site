@@ -7,7 +7,7 @@ let Experience = React.forwardRef((props, ref) => (
         <div className="experience-header">
             <img alt="" className="experience-header-icon" src={props.image}/>
             <div className="experience-header-info">
-                <h3>{props.title}</h3>
+                <h3 className="experience-header-position">{props.title}</h3>
                 <a className="experience-header-org" href={props.org[1]}>{props.org[0]}</a>
             </div>
             <div className="experience-header-details desktop">

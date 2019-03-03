@@ -3,6 +3,11 @@
     margin-left: 100px;
 }
 
+.Resume h2::selection{
+    color: white;
+    background: #3498db;
+}
+
 .header {
     display: flex;
     align-items: center;

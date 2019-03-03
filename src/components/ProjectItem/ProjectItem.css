@@ -28,6 +28,11 @@
     margin-bottom: 15px;
 }
 
+.project-title::selection {
+    color: white;
+    background: #6c5ce8;
+}
+
 .project-link {
     font-family: neue-haas-grotesk-display, sans-serif;
     font-weight: 400;
@@ -37,6 +42,11 @@
     color: #6c5ce8;
 }
 
+.project-link::selection {
+    color: white;
+    background: #6c5ce8;
+}
+
 .project-link i {
     font-size: 30px;
     margin-right: 7px;
@@ -44,6 +54,11 @@
 
 .project-description {
     font-weight: 400;
+}
+
+.project-description::selection {
+    color: white;
+    background: #6c5ce8;
 }
 
 @media (max-width: 576px) {

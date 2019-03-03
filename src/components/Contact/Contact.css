@@ -6,6 +6,11 @@
     color: #e74c3c;
 }
 
+.contact-header::selection {
+    color: white;
+    background: #e74c3c;
+}
+
 .contact-item {
     text-align: center;
 }
@@ -20,6 +25,11 @@
     margin-bottom: 20px;
     letter-spacing: .05em;
     color: #e74c3c;
+}
+
+.contact-link::selection {
+    color: white;
+    background: #e74c3c;
 }
 
 .contact-link i {
