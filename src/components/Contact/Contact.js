@@ -41,7 +41,7 @@ class Contact extends React.Component {
                         </a>
                     </li>
                     <li className="contact-item" ref={node => this.nodes.push(node)}>
-                        <a href="resume-adisa-4.pdf" className="contact-link">
+                        <a href="resume-adisa-5.pdf" className="contact-link">
                             <i className="fas fa-file-pdf"></i> Download Resume
                         </a>
                     </li>

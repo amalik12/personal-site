@@ -36,7 +36,7 @@ class Resume extends Component {
                 <h2 className="header-text">Experience.</h2><span className="divider"></span>
             </div>
             {resume.map((item, index) => <Experience key={index} ref={node => this.nodes.push(node)} {...item}/>)}
-                <div ref={node => this.nodes.push(node)}><a href="resume-adisa-4.pdf" className="resume-download"><i className="fas fa-file-pdf"></i> <span className="resume-download-text">Download Resume</span></a></div>
+                <div ref={node => this.nodes.push(node)}><a href="resume-adisa-5.pdf" className="resume-download"><i className="fas fa-file-pdf"></i> <span className="resume-download-text">Download Resume</span></a></div>
           </div>
         );
     }

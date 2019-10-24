@@ -30,7 +30,7 @@ export const resume = [
         dates: 'Sept 2018 - Present',
         location: "New York, NY",
         tags: ['c++', 'python'],
-        description: "Developed several improvements to the backend services for the MARS function in the Bloomberg Terminal. Built a new feature for the MARS function's deal upload process."
+        description: "Developed several improvements to the backend services for the MARS function in the Bloomberg Terminal. Designed and implemented a new polling request model for the deal upload service, allowing clients to make large requests without triggering a timeout. Worked on several fixes and enhancements for the service's build system and CI/CD pipeline, reducing the average Jenkins build time by 80%."
     },
     {
         title: "Solutions Engineer",

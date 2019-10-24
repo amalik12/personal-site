@@ -12,7 +12,7 @@ class About extends Component {
   
   render() {
       const intro = () => <h1>Hi, I'm <PageLink link="/contact" color="#e74c3c" className="highlight">Adisa!</PageLink></h1>;
-      const info = () => <h1 style={{transitionDelay: '200ms'}}>I'm a developer based in <a href="http://nyc.gov" className="highlight">New York, NY.</a> Currently, I'm working at <a href="http://bloomberg.com" className="highlight">Bloomberg</a> as a Software Engineer.</h1>
+      const info = () => <h1 style={{ transitionDelay: '200ms' }}>I'm a developer based in <a href="http://nyc.gov" className="highlight">New York, NY.</a> Currently, I'm working at <a href="http://bloomberg.com" className="highlight">Bloomberg</a> as a Software Engineer. Feel free to <PageLink link="/resume" color="#e74c3c" className="highlight">check out my resume</PageLink> or <PageLink link="/contact" color="#e74c3c" className="highlight">get in touch.</PageLink></h1>
       let items = [intro, info]
       return (
         <div className="About">
