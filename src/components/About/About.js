@@ -19,8 +19,9 @@ class About extends Component {
       return (
         <div className="About">
           <TransitionGroup>
-            {items.map(item =>
+            {items.map((item, index) =>
               (<CSSTransition
+              key={index}
               timeout={700}
               appear={true}
               classNames="fade"

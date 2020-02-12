@@ -22,7 +22,7 @@ let Experience = React.forwardRef((props, ref) => (
         <p className="experience-description">
             {props.description}
         </p>
-        {props.tags.map((item) => <Tag>{item}</Tag>)}
+        {props.tags.map((item) => <Tag key={item}>{item}</Tag>)}
     </div>
 ));
 
