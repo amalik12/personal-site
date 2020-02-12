@@ -25,9 +25,17 @@ export const projects = [
 export const resume = [
     {
         title: "Software Engineer",
+        org: ['Google', 'http://google.com'],
+        image: 'google.png',
+        dates: 'Feb 2020 - Present',
+        location: "New York, NY",
+        tags: ['java', 'javascript']
+    },
+    {
+        title: "Software Engineer",
         org: ['Bloomberg', 'http://bloomberg.com'],
         image: 'bloomberg.png',
-        dates: 'Sept 2018 - Present',
+        dates: 'Sept 2018 - Feb 2020',
         location: "New York, NY",
         tags: ['c++', 'python'],
         description: "Developed several improvements to the backend services for the MARS function in the Bloomberg Terminal. Designed and implemented a new polling request model for the deal upload service, allowing clients to make large requests without triggering a timeout."
