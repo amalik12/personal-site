@@ -29,7 +29,7 @@ export const resume = [
         image: 'google.png',
         dates: 'Feb 2020 - Present',
         location: "New York, NY",
-        tags: ['java', 'javascript']
+        tags: ['java', 'dart', 'c++', 'angular']
     },
     {
         title: "Software Engineer",
